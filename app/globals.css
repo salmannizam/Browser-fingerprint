@@ -1,0 +1,30 @@
+/* styles/styles.module.css */
+.game {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.board {
+  border: 2px solid #333;
+}
+
+.board-row {
+  display: flex;
+}
+
+.square {
+  font-size: 24px;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #999;
+}
+
+.square:hover {
+  background-color: #f5f5f5;
+}
